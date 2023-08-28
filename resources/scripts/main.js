@@ -35,4 +35,17 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// JavaScript para comprar entradas
+const comprarButtons = document.querySelectorAll('.btn-comprar');
 
+comprarButtons.forEach(button => {
+  button.addEventListener('click', comprarEntrada);
+});
+
+function comprarEntrada(event) {
+  event.preventDefault();
+  const preferenceId = event.target.getAttribute('data-preference-id');
+  
+  // Redirigir al enlace de Mercado Pago con el preferenceId
+  window.location.href = `https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js?data-preference-id=${preferenceId}`;
+}

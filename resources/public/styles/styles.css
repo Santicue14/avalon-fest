@@ -125,4 +125,22 @@ nav a:hover {
 #map {
   margin-top: 20px;
 }
-/* Resto de estilos... */
+/* Resto de tus estilos CSS */
+#events {
+  /* Resto de tus estilos */
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -20px; /* Para compensar los márgenes de las tarjetas */
+}
+
+.event-card {
+  /* Estilos para la tarjeta de evento */
+  flex: 1;
+  margin: 20px;
+  max-width: calc(50% - 40px); /* Ajusta el ancho según tu diseño */
+  box-sizing: border-box;
+}
