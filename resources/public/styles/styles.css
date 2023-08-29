@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Lilita One', sans-serif; /* Usar la fuente importada */
   margin: 0;
   padding: 0;
 }
@@ -75,7 +75,22 @@ nav a:hover {
   font-size: 18px;
   color: #555;
 }
+.event-card {
+  /* Estilos para la tarjeta de evento */
+  flex: 1;
+  margin: 20px;
+  max-width: calc(50% - 40px); /* Ajusta el ancho según tu diseño */
+  box-sizing: border-box;
+  text-align: center; /* Añade alineación de texto al centro */
+}
 
+.event-card p {
+  /* Estilo para el texto del evento */
+  font-size: 14px; /* Ajusta el tamaño de fuente según tus preferencias */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 #events .event-card {
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -143,4 +158,11 @@ nav a:hover {
   margin: 20px;
   max-width: calc(50% - 40px); /* Ajusta el ancho según tu diseño */
   box-sizing: border-box;
+}
+.texto-avalon {
+  font-family: 'Lilita One', sans-serif; /* Usar la fuente importada */
+}
+.logo-image {
+  width: 150px; /* Cambia este valor según tus preferencias */
+  height: auto; /* Esto asegura que la proporción se mantenga */
 }
