@@ -167,10 +167,11 @@ nav a:hover {
   width: 150px; /* Cambia este valor según tus preferencias */
   height: auto; /* Esto asegura que la proporción se mantenga */
 }
-#titulocompra{
+.descrip{
   font-family: 'Sora', sans-serif;
 }
 div.descrip{
+  
   font-size: 40px;
 }
 p.descrip{
