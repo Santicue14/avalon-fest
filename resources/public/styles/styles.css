@@ -170,6 +170,9 @@ nav a:hover {
 #titulocompra{
   font-family: 'Sora', sans-serif;
 }
-.descrip{
+div.descrip{
   font-size: 40px;
+}
+p.descrip{
+  font-size: 30px;
 }
